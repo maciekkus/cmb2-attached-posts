@@ -364,7 +364,7 @@ class WDS_CMB2_Attached_Posts_Field {
 		$post_type_obj = get_post_type_object( $object->post_type );
 		$label = isset( $post_type_obj->labels->singular_name ) ? $post_type_obj->labels->singular_name : $post_type_obj->label;
 
-		return ' &mdash; <span class="object-label">'. $label .'</span>';
+		return ' <span class="object-label">'. $label .'</span>';
 	}
 
 	/**

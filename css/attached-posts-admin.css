@@ -111,3 +111,14 @@ ul.hide-selected li.added{
 	color: #999;
 	margin: .2em -.2em 0 1px;
 }
+
+.cmb-type-custom-attached-posts .object-label {
+	background: #FFF;
+	border: 1px solid #CCC;
+	padding: 1px 3px;
+	color: #AAA;
+	font-size: 9px;
+	position: absolute;
+	right: 35px;
+	top: 9px;
+}
